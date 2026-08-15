@@ -1,0 +1,6 @@
+* @JVRLC
+
+/.github/ @JVRLC
+/server.ts @JVRLC
+/sync-corpus.ts @JVRLC
+/Dockerfile @JVRLC
