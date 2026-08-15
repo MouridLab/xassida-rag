@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "start": "bun server.ts",
-    "sync": "bun sync-corpus.ts"
+    "sync": "bun sync-corpus.ts",
+    "test": "bun test"
   },
   "dependencies": {
     "@autorag/librarian": "2.1.0"
