@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci --omit=dev
 
-FROM oven/bun:1.3.14-alpine AS bun-runtime
+FROM oven/bun:1.4.0-alpine AS bun-runtime
 
 FROM node:26-alpine
 WORKDIR /app
